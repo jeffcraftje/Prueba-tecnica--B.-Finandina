@@ -1,0 +1,321 @@
+:root {
+    --color-fond: #f7f7f7;
+    --color-letra: #4b4b4b;
+    --color-subletra: #3a3a3a;
+    --color-button: #fff;
+    --tema-one: #0260D7;
+    --tema-one-1: #00E0FF;
+    --tema-two: #8300FF;
+    --tema-two-1: #D70259;
+}
+
+body {
+    background-color: var(--color-fond);
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-s {
+    width: 100%;
+    background: -webkit-linear-gradient(left, var(--tema-one), var(--tema-one-1));
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+
+    .contens {
+        .img2 {
+            width: 350px;
+
+            .img-2 {
+                width: 70%;
+                left: 200px;
+                top: -15px;
+                position: relative;
+            }
+        }
+
+        .nav-s-logo {
+            display: flex;
+            flex-direction: row;
+            padding: 15px 155px;
+
+            .img-1 {
+                width: 50px;
+            }
+
+            .title {
+                color: white;
+                width: 50px;
+                margin: 10px;
+            }
+
+        }
+    }
+
+    .contens-1 {
+        text-align: center;
+        margin: 25px 0;
+
+        .nav-s-contest {
+            width: 100%;
+
+            .feliz {
+                color: #fff;
+                font-size: 50px;
+                text-align: center;
+                margin: 0;
+            }
+
+            .img-3 {
+                width: 100px;
+                position: relative;
+                top: -25px;
+                margin: 0;
+            }
+
+            .texts {
+                color: #fff;
+                font-size: 20px;
+                margin: 0 auto;
+                width: 270px;
+                text-align: center;
+            }
+        }
+    }
+
+    @media screen and (max-width: 375px) {
+        height: 245px;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-letra);
+
+    .condic {
+        width: 50%;
+        margin: 10px 55px;
+        font-size: 15px;
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+
+            .card-s {
+                background: white;
+                border-radius: 15px;
+                border: 1px solid rgba(0, 0, 0, 0.144);
+                padding: 10px;
+                width: 130px;
+                margin: 8px;
+                text-align: center;
+                box-shadow: 7px 7px 15px #00000042;
+
+                .input-mont {
+                    width: 85%;
+                    border: none;
+                    background: none;
+                    outline: none;
+                    text-align: center;
+                }
+
+                input[type=number]::-webkit-inner-spin-button,
+                input[type=number]::-webkit-outer-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+                .input-mont:hover {
+                    border-bottom: 1px solid var(--tema-one);
+                }
+
+                .tipo {
+                    border: 1px solid -webkit-linear-gradient(left, var(--tema-one), var(--tema-one-1));
+                    background: -webkit-linear-gradient(left, var(--tema-one), var(--tema-one-1));
+                    border-radius: 60px;
+                    padding: 15px;
+                    width: 50px;
+                    margin: 5px auto;
+
+                    .tipos {
+                        width: 45px;
+                    }
+
+                    .montos {
+                        width: 25px !important;
+                    }
+
+                    .plazos {
+                        width: 40px !important;
+                    }
+                }
+
+                .tipo1 {
+                    border: 1px solid -webkit-linear-gradient(left, var(--tema-two), var(--tema-two-1));
+                    background: -webkit-linear-gradient(left, var(--tema-two), var(--tema-two-1));
+                    border-radius: 60px;
+                    padding: 15px;
+                    width: 50px;
+                    margin: 5px auto;
+
+                    .tipos {
+                        width: 45px;
+                    }
+                }
+
+                .linea {
+                    border: 1px solid var(--tema-one-1);
+                    width: 40%;
+                    margin: auto;
+                }
+
+                .linea-1 {
+                    border: 1px solid var(--tema-two);
+                    width: 40%;
+                    margin: auto;
+                }
+            }
+        }
+
+        .info {
+            .info-s {
+                display: flex;
+                flex-direction: row;
+                .info-s-1{
+                    margin: 15px 25px;
+                    text-align: center;
+                    .tip-1{
+                        margin: 7px 0px;
+                    }
+                    .linea {
+                        border: 1px solid var(--tema-one-1);
+                        width: 100%;
+                        margin: auto;
+                    }
+    
+                    .linea-1 {
+                        border: 1px solid var(--tema-two);
+                        width: 100%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+        .cuenta{
+            display: flex;
+            flex-direction: row;
+            .cuenta-s-2{
+                position: relative;
+                top: 20px;
+            }
+            .cuenta-s{
+                margin: 10px;
+                .cuenta-s-1{
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+
+    .next {
+        width: 50%;
+        margin: 10px 55px;
+    }
+}
+
+.nav-s-1 {
+    width: 100%;
+    background: -webkit-linear-gradient(left, var(--tema-two), var(--tema-two-1));
+    height: 250px;
+
+    @media screen and (max-width: 375px) {
+        height: 245px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 375px) {
+    .nav-s {
+        display: block !important;
+
+        .contens {
+            .img2 {
+                display: none;
+            }
+
+            .nav-s-logo {
+                padding: 5px 5px !important;
+
+                img {
+                    width: 100px !important;
+                }
+            }
+        }
+
+        .contens-1 {
+            .nav-s-contest {
+                img {
+                    width: 250px;
+                }
+            }
+        }
+    }
+
+    .content {
+        display: block;
+
+        .condic {
+            width: 95%;
+            margin: 10px;
+
+            .cards {
+                display: block !important;
+
+                .card-s {
+                    display: flex;
+                    flex-direction: row;
+                    width: 90%;
+                    height: 60px;
+
+                    .tipo {
+                        margin: 0;
+                        padding: 10px;
+                        width: 40px;
+
+                        .tipos {
+                            width: 30px;
+                        }
+
+                        .montos {
+                            width: 20px !important;
+                        }
+
+                        .plazos {
+                            width: 30px !important;
+                        }
+                    }
+
+                    .linea {
+                        display: none;
+                    }
+
+                    .contes {
+                        text-align: initial;
+                        margin: 0 10px;
+
+                        .tip {
+                            margin: 0;
+                        }
+
+                        .tip-1 {
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
