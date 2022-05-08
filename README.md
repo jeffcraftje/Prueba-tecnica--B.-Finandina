@@ -11,6 +11,10 @@ Fue seleccionado para continuar con el proceso para Desarrolladora FrontEnd en e
 [Despliegue de la aplicación](https://prueba-tecnica-b-finandina.vercel.app)
 
 
+### Nota
+
+Para ver el cambio de color en la estructura, la vincule al darle clic al Boton Finanlizar
+
 <h3 align="left">Lenguajes y herramientas:</h3>
 <h3> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png" alt="Angular" width="40"
 height="40"/> Angular
