@@ -11,8 +11,10 @@ Fue seleccionado para continuar con el proceso para Desarrolladora FrontEnd en e
 
 
 <h3 align="left">Lenguajes y herramientas:</h3>
+<h3> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png" alt="Angular" width="40"
+height="40"/> Angular
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40"
-height="40"/> </a> </p>
+height="40"/> Sass</h3>
 
 ## Autores ✒️
 * **Jefferson Garcia** - *Desarrollador Front-end* - [Jefferson Garcia](https://github.com/jeffcraftje)
