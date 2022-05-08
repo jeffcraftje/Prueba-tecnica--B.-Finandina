@@ -101,16 +101,17 @@
     </div>
 </div>
 <div class="content">
-    <div class="condic">
+    <div class="condic" [class.condic-1-2]="isTrue">
         <h2 class="descript">Estas son las condiciones del producto digital que acabas de firmar</h2>
         <div class="cards">
             <div class="card-s">
                 <div class="tipo" [class.tipo1]="isTrue">
                     <img class="tipos" src="../../assets/Img/Grupo 6260.svg" alt="tipo" />
                 </div>
-                <div class="linea" [class.linea-1]="isTrue"></div>
+                
                 <div class="contes">
                     <h5 class="tip">Tipo</h5>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
                     <h4 class="tip-1">Crédito de libre Inversión</h4>
                 </div>
             </div>
@@ -118,9 +119,10 @@
                 <div class="tipo" [class.tipo1]="isTrue">
                     <img class="tipos montos" src="../../assets/Img/Grupo 34.svg" alt="monto" />
                 </div>
-                <div class="linea" [class.linea-1]="isTrue"></div>
+                
                 <div class="contes">
                     <h5 class="tip">Monto</h5>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
                     <h4 class="tip-1">$40,000,000</h4>
                 </div>
             </div>
@@ -128,9 +130,10 @@
                 <div class="tipo" [class.tipo1]="isTrue">
                     <img class="tipos plazos" src="../../assets/Img/Grupo 36.svg" alt="plazo" />
                 </div>
-                <div class="linea" [class.linea-1]="isTrue"></div>
+                
                 <div class="contes">
                     <h5 class="tip">Plazo en Meses</h5>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
                     <h4 class="tip-1">60</h4>
                 </div>
             </div>
@@ -175,6 +178,94 @@
         </div>
         <h5>*Recuenda que deves ser el titular de la cuenta, de lo contrario tu desembolso presentara rechazo.</h5>
     </div>
+    <div class="condic-1" [class.condic-1-1]="!isTrue">
+        <h2 class="descript">Estas son las condiciones del producto digital que acabas de firmar</h2>
+        <div class="cards">
+            <div class="card-s">
+                <div class="tipo" [class.tipo1]="isTrue">
+                    <img class="tipos" src="../../assets/Img/Grupo 15309.svg" alt="tipo" />
+                </div>
+                
+                <div class="contes">
+                    <h5 class="tip">Tipo</h5>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
+                    <h4 class="tip-1">Tarjeta de Crédito</h4>
+                </div>
+            </div>
+            <div class="card-s">
+                <div class="tipo" [class.tipo1]="isTrue">
+                    <img class="tipos plazos" src="../../assets/Img/Grupo 15325.svg" alt="monto" />
+                </div>
+                
+                <div class="contes">
+                    <h5 class="tip">Tarjeta</h5>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
+                    <h4 class="tip-1">Visa Oro</h4>
+                </div>
+            </div>
+            <div class="card-s">
+                <div class="tipo" [class.tipo1]="isTrue">
+                    <img class="tipos montos" src="../../assets/Img/Grupo 34.svg" alt="plazo" />
+                </div>
+                <div class="contes">
+                    <h5 class="tip">Cupo</h5>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
+                    <h4 class="tip-1">$2,200,000</h4>
+                </div>
+            </div>
+        </div>
+        <div class="info">
+            <div class="info-s">
+                <div class="info-s-1">
+                    <img src="../../assets/Img/Grupo 15310.svg" alt="">
+                    <div class="info-s-1-2">
+                        <h4 class="tip-1">Fecha de corte</h4>
+                        <div class="linea" [class.linea-1]="isTrue"></div>
+                        <h4 class="tip-1">17</h4>
+                    </div>
+                </div>
+                <div class="info-s-1">
+                    <img src="../../assets/Img/Grupo 40.svg" alt="radicación">
+                    <div class="info-s-1-2">
+                        <h4 class="tip-1">ID radicación</h4>
+                        <div class="linea" [class.linea-1]="isTrue"></div>
+                        <h4 class="tip-1">1459525</h4>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="compra">
+            <div class="info-s">
+                <div class="info-s-1">
+                    <h4 class="tip-1">Banco</h4>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
+                    <h4 class="tip-1">Banco de Bogota</h4>
+                </div>
+                <div class="info-s-1">
+                    <h4 class="tip-1">Franquicia</h4>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
+                    <h4 class="tip-1">Visa</h4>
+                </div>
+                <div class="info-s-1">
+                    <h4 class="tip-1">Valor a comprar</h4>
+                    <div class="linea" [class.linea-1]="isTrue"></div>
+                    <h4 class="tip-1">$25,000,000</h4>
+                </div>
+            </div>
+        </div>
+        <div class="cuenta">
+            <div class="cuenta-s-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="21.324" height="20.916" viewBox="0 0 21.324 20.916">
+                    <path id="Trazado_8477" data-name="Trazado 8477"
+                        d="M334.22,732.72l-1.859-.006-3.164-.009q.432-2.108.863-4.214l.057-.279,1.807,0c.754,0,1.51.021,2.265.006h.031a1.33,1.33,0,1,0,0-2.66l-1.859-.005-1.7,0,.334-1.635c.152-.739.311-1.477.455-2.219l.006-.03a1.33,1.33,0,1,0-2.564-.707l-.374,1.822-.565,2.761H327.9l-4.589-.013.331-1.614c.152-.739.311-1.477.454-2.219l.006-.03a1.33,1.33,0,1,0-2.564-.707l-.373,1.822-.561,2.741-2.745-.008c-.755,0-1.511-.02-2.265-.006h-.031a1.33,1.33,0,1,0,0,2.66l1.86.005,2.637.007q-.434,2.121-.869,4.241l-.052.252-1.28,0c-.755,0-1.511-.02-2.265-.006h-.031a1.33,1.33,0,1,0,0,2.66l1.86,0,1.172,0-.34,1.661c-.152.74-.311,1.478-.455,2.219l-.006.031a1.33,1.33,0,0,0,2.565.707l.373-1.822.571-2.789.583,0,4.063.011L325.609,737c-.151.74-.311,1.478-.454,2.219l-.006.031a1.33,1.33,0,1,0,2.564.707l.374-1.822q.282-1.384.566-2.768l3.272.009c.754,0,1.51.021,2.265.006h.031a1.33,1.33,0,1,0,0-2.659Zm-11.7-.033-.678,0,.859-4.193.061-.3,4.495.013h.152l-.864,4.221-.056.273Z"
+                        transform="translate(-314.227 -720)" fill="#a703f6" />
+                </svg>
+            </div>
+            <div class="cuenta-s">
+                <h4 class="cuenta-s-1">Número de tarjeta: <b>44567823415671431</b></h4>
+            </div>
+        </div>
+    </div>
     <div class="next">
         <h2 class="descript">¿Que viene ahora?</h2>
         <div class="qva">
@@ -204,7 +295,8 @@
             </div>
         </div>
         <div class="buttos">
-            <button class="final" type="button" (click)="cambiarColor()">FINALIZAR <img src="../../assets/Img/Grupo 7047.svg" alt="chulos"></button>
+            <button class="final" type="button" (click)="cambiarColor()">FINALIZAR <img
+                    src="../../assets/Img/Grupo 7047.svg" alt="chulos"></button>
         </div>
     </div>
 </div>

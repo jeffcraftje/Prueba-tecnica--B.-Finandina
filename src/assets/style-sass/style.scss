@@ -118,6 +118,7 @@ body {
     display: flex;
     flex-direction: row;
     color: var(--color-letra);
+
     .condic {
         width: 50%;
         margin: 10px 55px;
@@ -243,6 +244,177 @@ body {
         }
     }
 
+    .condic-1 {
+        width: 50%;
+        margin: 10px 55px;
+        font-size: 15px;
+
+        .cards {
+            display: flex;
+            flex-direction: row;
+
+            .card-s {
+                background: white;
+                border-radius: 15px;
+                border: 1px solid rgba(0, 0, 0, 0.144);
+                padding: 10px;
+                width: 130px;
+                margin: 8px;
+                text-align: center;
+                box-shadow: 7px 7px 15px #00000042;
+
+                .tipo {
+                    border: 1px solid -webkit-linear-gradient(left, var(--tema-one), var(--tema-one-1));
+                    background: -webkit-linear-gradient(left, var(--tema-one), var(--tema-one-1));
+                    border-radius: 60px;
+                    padding: 15px;
+                    width: 50px;
+                    margin: 5px auto;
+
+                    .tipos {
+                        width: 50px;
+                    }
+
+                    .montos {
+                        width: 25px !important;
+                    }
+
+                    .plazos {
+                        width: 40px !important;
+                    }
+                }
+
+                .tipo1 {
+                    border: 1px solid -webkit-linear-gradient(left, var(--tema-two), var(--tema-two-1));
+                    background: -webkit-linear-gradient(left, var(--tema-two), var(--tema-two-1));
+                    border-radius: 60px;
+                    padding: 15px;
+                    width: 50px;
+                    margin: 5px auto;
+
+                    .tipos {
+                        width: 45px;
+                    }
+                }
+
+                .linea {
+                    border: 1px solid var(--tema-one-1);
+                    width: 40%;
+                    margin: auto;
+                }
+
+                .linea-1 {
+                    border: 1px solid var(--tema-two);
+                    width: 40%;
+                    margin: auto;
+                }
+            }
+        }
+
+        .info {
+            .info-s {
+                display: flex;
+                flex-direction: row;
+                margin: auto;
+
+                .info-s-1 {
+                    margin: 15px 25px;
+                    text-align: center;
+                    display: flex;
+                    flex-direction: row;
+
+                    img {
+                        margin: 0px 15px;
+                        width: 50px;
+                    }
+
+                    .tip-1 {
+
+                        margin: 7px 0px;
+                    }
+
+                    .linea {
+                        border: 1px solid var(--tema-one-1);
+                        width: 100%;
+                        margin: auto;
+                    }
+
+                    .linea-1 {
+                        border: 1px solid var(--tema-two);
+                        width: 100%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+
+        .compra {
+            .info-s {
+                display: flex;
+                flex-direction: row;
+                width: 81%;
+                margin: auto;
+
+                .info-s-1 {
+                    margin: 15px 25px;
+                    text-align: center;
+
+                    .tip-1 {
+                        margin: 7px 0px;
+                    }
+
+                    .linea {
+                        border: 1px solid var(--tema-one-1);
+                        width: 100%;
+                        margin: auto;
+                    }
+
+                    .linea-1 {
+                        border: 1px solid var(--tema-two);
+                        width: 100%;
+                        margin: auto;
+                    }
+                }
+            }
+        }
+
+        .cuenta {
+            display: flex;
+            flex-direction: row;
+
+            .cuenta-s-2 {
+                position: relative;
+                top: 20px;
+
+                svg {
+                    .Trazado_79 {
+                        fill: #00E0FF;
+                    }
+
+                    .Trazado_7 {
+                        fill: var(--tema-two);
+                    }
+                }
+            }
+
+            .cuenta-s {
+                margin: 10px;
+
+                .cuenta-s-1 {
+                    margin: 10px 0;
+                }
+            }
+        }
+    }
+
+    .condic-1-1 {
+        display: none;
+    }
+
+    .condic-1-2 {
+        display: none;
+    }
+
     .next {
         width: 50%;
         margin: 10px 55px;
@@ -359,6 +531,7 @@ body {
             }
         }
     }
+
     @media screen and (max-width: 750px) {
         display: block;
     }
@@ -462,6 +635,80 @@ body {
             }
         }
 
+        .condic-1 {
+            width: 95%;
+            margin: 10px;
+
+            .cards {
+                display: block !important;
+
+                .card-s {
+                    display: flex;
+                    flex-direction: row;
+                    width: 90%;
+                    height: 60px;
+
+                    .tipo {
+                        margin: 0;
+                        padding: 10px;
+                        width: 40px;
+
+                        .tipos {
+                            width: 40px;
+                        }
+
+                        .montos {
+                            width: 20px !important;
+                        }
+
+                        .plazos {
+                            width: 40px !important;
+                        }
+                    }
+
+                    .linea {
+                        display: none;
+                    }
+
+                    .contes {
+                        text-align: initial;
+                        margin: 0 10px;
+
+                        .tip {
+                            margin: 0;
+                        }
+
+                        .tip-1 {
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+
+            .info {
+                .info-s {
+                    width: 97%;
+                    margin: auto;
+                    position: relative;
+
+                    .info-s-1 {
+                        margin: 0;
+                    }
+                }
+            }
+
+            .compra {
+                .info-s {
+                    width: 95%;
+                    margin: auto;
+
+                    .info-s-1 {
+                        margin: 6px;
+                    }
+                }
+            }
+        }
+
         .next {
             width: 95%;
             margin: 10px;
@@ -469,6 +716,7 @@ body {
             .qva {
                 .qva-s {
                     margin: 15px 0;
+
                     img {
                         width: 50px;
                     }
@@ -484,23 +732,28 @@ body {
                     }
 
                     .qva-s-1 {
-                        .qva-s-q{
+                        .qva-s-q {
                             font-size: 15px;
                         }
-                        .qva-s-w{
+
+                        .qva-s-w {
                             font-size: 15px;
                         }
-                        .qva-s-e{
+
+                        .qva-s-e {
                             font-size: 15px;
                         }
                     }
                 }
             }
-            .buttos{
+
+            .buttos {
                 margin: 25px 0px;
-                .final{
+
+                .final {
                     width: 80%;
-                    img{
+
+                    img {
                         left: 45%;
                     }
                 }

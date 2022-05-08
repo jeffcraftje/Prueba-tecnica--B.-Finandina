@@ -197,6 +197,140 @@ body {
 .content .condic .cuenta .cuenta-s .cuenta-s-1 {
   margin: 5px 0;
 }
+.content .condic-1 {
+  width: 50%;
+  margin: 10px 55px;
+  font-size: 15px;
+}
+.content .condic-1 .cards {
+  display: flex;
+  flex-direction: row;
+}
+.content .condic-1 .cards .card-s {
+  background: white;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  padding: 10px;
+  width: 130px;
+  margin: 8px;
+  text-align: center;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2588235294);
+}
+.content .condic-1 .cards .card-s .tipo {
+  border: 1px solid -webkit-linear-gradient(left, var(--tema-one), var(--tema-one-1));
+  background: -webkit-linear-gradient(left, var(--tema-one), var(--tema-one-1));
+  border-radius: 60px;
+  padding: 15px;
+  width: 50px;
+  margin: 5px auto;
+}
+.content .condic-1 .cards .card-s .tipo .tipos {
+  width: 50px;
+}
+.content .condic-1 .cards .card-s .tipo .montos {
+  width: 25px !important;
+}
+.content .condic-1 .cards .card-s .tipo .plazos {
+  width: 40px !important;
+}
+.content .condic-1 .cards .card-s .tipo1 {
+  border: 1px solid -webkit-linear-gradient(left, var(--tema-two), var(--tema-two-1));
+  background: -webkit-linear-gradient(left, var(--tema-two), var(--tema-two-1));
+  border-radius: 60px;
+  padding: 15px;
+  width: 50px;
+  margin: 5px auto;
+}
+.content .condic-1 .cards .card-s .tipo1 .tipos {
+  width: 45px;
+}
+.content .condic-1 .cards .card-s .linea {
+  border: 1px solid var(--tema-one-1);
+  width: 40%;
+  margin: auto;
+}
+.content .condic-1 .cards .card-s .linea-1 {
+  border: 1px solid var(--tema-two);
+  width: 40%;
+  margin: auto;
+}
+.content .condic-1 .info .info-s {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+.content .condic-1 .info .info-s .info-s-1 {
+  margin: 15px 25px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.content .condic-1 .info .info-s .info-s-1 img {
+  margin: 0px 15px;
+  width: 50px;
+}
+.content .condic-1 .info .info-s .info-s-1 .tip-1 {
+  margin: 7px 0px;
+}
+.content .condic-1 .info .info-s .info-s-1 .linea {
+  border: 1px solid var(--tema-one-1);
+  width: 100%;
+  margin: auto;
+}
+.content .condic-1 .info .info-s .info-s-1 .linea-1 {
+  border: 1px solid var(--tema-two);
+  width: 100%;
+  margin: auto;
+}
+.content .condic-1 .compra .info-s {
+  display: flex;
+  flex-direction: row;
+  width: 81%;
+  margin: auto;
+}
+.content .condic-1 .compra .info-s .info-s-1 {
+  margin: 15px 25px;
+  text-align: center;
+}
+.content .condic-1 .compra .info-s .info-s-1 .tip-1 {
+  margin: 7px 0px;
+}
+.content .condic-1 .compra .info-s .info-s-1 .linea {
+  border: 1px solid var(--tema-one-1);
+  width: 100%;
+  margin: auto;
+}
+.content .condic-1 .compra .info-s .info-s-1 .linea-1 {
+  border: 1px solid var(--tema-two);
+  width: 100%;
+  margin: auto;
+}
+.content .condic-1 .cuenta {
+  display: flex;
+  flex-direction: row;
+}
+.content .condic-1 .cuenta .cuenta-s-2 {
+  position: relative;
+  top: 20px;
+}
+.content .condic-1 .cuenta .cuenta-s-2 svg .Trazado_79 {
+  fill: #00E0FF;
+}
+.content .condic-1 .cuenta .cuenta-s-2 svg .Trazado_7 {
+  fill: var(--tema-two);
+}
+.content .condic-1 .cuenta .cuenta-s {
+  margin: 10px;
+}
+.content .condic-1 .cuenta .cuenta-s .cuenta-s-1 {
+  margin: 10px 0;
+}
+.content .condic-1-1 {
+  display: none;
+}
+.content .condic-1-2 {
+  display: none;
+}
 .content .next {
   width: 50%;
   margin: 10px 55px;
@@ -369,6 +503,61 @@ body {
   .content .condic .info .info-s {
     width: 95%;
     position: relative;
+  }
+  .content .condic-1 {
+    width: 95%;
+    margin: 10px;
+  }
+  .content .condic-1 .cards {
+    display: block !important;
+  }
+  .content .condic-1 .cards .card-s {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 60px;
+  }
+  .content .condic-1 .cards .card-s .tipo {
+    margin: 0;
+    padding: 10px;
+    width: 40px;
+  }
+  .content .condic-1 .cards .card-s .tipo .tipos {
+    width: 40px;
+  }
+  .content .condic-1 .cards .card-s .tipo .montos {
+    width: 20px !important;
+  }
+  .content .condic-1 .cards .card-s .tipo .plazos {
+    width: 40px !important;
+  }
+  .content .condic-1 .cards .card-s .linea {
+    display: none;
+  }
+  .content .condic-1 .cards .card-s .contes {
+    text-align: initial;
+    margin: 0 10px;
+  }
+  .content .condic-1 .cards .card-s .contes .tip {
+    margin: 0;
+  }
+  .content .condic-1 .cards .card-s .contes .tip-1 {
+    margin: 10px 0;
+  }
+  .content .condic-1 .info .info-s {
+    width: 97%;
+    margin: auto;
+    position: relative;
+  }
+  .content .condic-1 .info .info-s .info-s-1 {
+    margin: 0;
+  }
+  .content .condic-1 .compra .info-s {
+    width: 95%;
+    margin: auto;
+  }
+  .content .condic-1 .compra .info-s .info-s-1 {
+    margin: 6px;
   }
   .content .next {
     width: 95%;
