@@ -15,6 +15,11 @@ Fue seleccionado para continuar con el proceso para Desarrolladora FrontEnd en e
 
 Para ver el cambio de color en la estructura, la vincule al darle clic al Boton Finanlizar
 
+![image](https://user-images.githubusercontent.com/92685688/167314557-01a5f917-87be-410a-98e3-81e80708e50e.png)
+Cambio de color:
+![image](https://user-images.githubusercontent.com/92685688/167314554-14092018-a8cb-4f8c-aedb-b798dfc87b1c.png)
+
+
 <h3 align="left">Lenguajes y herramientas:</h3>
 <h3> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/768px-Angular_full_color_logo.svg.png" alt="Angular" width="40"
 height="40"/> Angular
