@@ -26,5 +26,5 @@ height="40"/> Angular
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40"
 height="40"/> Sass</h3>
 
-## Autores ✒️
+## Autor ✒️
 * **Jefferson Garcia** - *Desarrollador Front-end* - [Jefferson Garcia](https://github.com/jeffcraftje)
